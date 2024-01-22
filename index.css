@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e8f0; /* 淡い青系統の背景色 */
+}
+
+header {
+  background-color: #1a3365; /* 濃い青系統のヘッダー背景色 */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #1a3365; /* 濃い青系統のフッター背景色 */
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sns-icons {
+  margin-top: 10px;
+}
+
+.sns-icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.sns-icon:hover {
+  opacity: 0.8;
+}
+
+.test {
+  color: #1a3365;
+}
